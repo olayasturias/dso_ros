@@ -74,7 +74,6 @@ set(dso_SOURCE_FILES
   ${DSO_PATH}/src/util/globalCalib.cpp
 )
 
-
 include_directories(
   ${PROJECT_SOURCE_DIR}/src
   ${DSO_PATH}/src
@@ -99,7 +98,6 @@ add_executable (dso_live
 
 install(TARGETS dso_live
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-
 
 
 target_link_libraries(dso_live

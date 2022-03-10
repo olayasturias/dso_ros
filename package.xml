@@ -11,8 +11,7 @@
   <maintainer email="olaya@ece.au.dk">olaya</maintainer>
   <license>see http://vision.in.tum.de/dso</license>
   <url>http://vision.in.tum.de/dso</url>
-  <buildtool_depend>catkin</buildtool_depend>
-  
+  <buildtool_depend>catkin</buildtool_depend>  
   <buildtool_depend>roslib</buildtool_depend>
   <build_depend>cv_bridge</build_depend>
   <run_depend>cv_bridge</run_depend>
