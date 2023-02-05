@@ -2,6 +2,6 @@
 <arg name="cam_topic" default="/cam0/image_raw"/>
 <arg name="config_file" default="$(find dso_ros)/config/your_config.yaml"/>
 
-<node pkg="dso_ros" type="dso_live" name="dso_live" respawn="false" args="image:=$(arg cam_topic) calib=$(arg config_file)">
+<node pkg="dso_ros" type="dso_live" name="dso_live" output="screen" respawn="false" args="image:=$(arg cam_topic) calib=$(arg config_file)">
 </node>
 </launch>
