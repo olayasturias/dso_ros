@@ -105,3 +105,6 @@ target_link_libraries(dso_live
     # ${Pangolin_LIBRARIES}
     ${OpenCV_LIBRARIES}
     ${catkin_LIBRARIES})
+
+install(DIRECTORY config launch
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
