@@ -27,7 +27,7 @@ catkin_package(
 
 include_directories(${catkin_INCLUDE_DIRS})
 
-set(DSO_PATH $ENV{DSO_PATH})
+set(DSO_PATH $ENV{HOME}/dev/SLAM/dso)
 message("\n\n---- LOOKING FOR DSO at\n\"${DSO_PATH}\"")
 
  
